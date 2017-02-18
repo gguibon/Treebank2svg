@@ -1,14 +1,14 @@
 {
-  "name": "TreebankBrowser-dir2svg",
-  "productName": "TreebankBrowser-dir2svg",
-  "version": "0.0.1",
-  "description": "Transform a directory of conll files into a directory of svg files.",
+  "name": "treebank2svg",
+  "productName": "treebank2svg",
+  "version": "0.1.1",
+  "description": "Transform a directory of conll files (treebank) into a directory of svg files.",
   "license": "AGPL-3.0",
-  "repository": "https://github.com/gguibon/",
+  "repository": "https://github.com/gguibon/Treebank2svg",
   "author": {
     "name": "Gaël Guibon",
     "email": "gael.guibon@lsis.org",
-    "url": "https://github.com/gguibon/"
+    "url": "https://github.com/gguibon"
   },
   "engines": {
     "node": ">=4"
@@ -26,10 +26,18 @@
     "index.css"
   ],
   "keywords": [
-    "treebank browser"
+    "treebank browser",
+    "svg",
+    "syntax",
+    "tree",
+    "corpus"
   ],
   "dependencies": {
-    "electron-debug": "^0.3.0"
+    "electron-debug": "^0.3.0",
+    "electron": "^1.4.15",
+    "mv": "^2.1.1",
+    "mkdirp": "^0.5.1",
+    "ncp": "^2.0.0"
   },
   "devDependencies": {
     "electron": "^1.4.15",
