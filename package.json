@@ -1,0 +1,59 @@
+{
+  "name": "TreebankBrowser-dir2svg",
+  "productName": "TreebankBrowser-dir2svg",
+  "version": "0.0.1",
+  "description": "Transform a directory of conll files into a directory of svg files.",
+  "license": "AGPL-3.0",
+  "repository": "https://github.com/gguibon/",
+  "author": {
+    "name": "Gaël Guibon",
+    "email": "gael.guibon@lsis.org",
+    "url": "https://github.com/gguibon/"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "electronVersion": "1.0.1",
+  "scripts": {
+    "test": "xo",
+    "start": "electron .",
+    "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion",
+    "deb64": "electron-installer-debian --src dist/app-linux-x64/ --dest dist/installers/ --arch amd64"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "treebank browser"
+  ],
+  "dependencies": {
+    "electron-debug": "^0.3.0"
+  },
+  "devDependencies": {
+    "electron": "^1.4.15",
+    "electron-installer-debian": "^0.4.0",
+    "electron-packager": "^5.0.0",
+    "electron-prebuilt": "1.0.1",
+    "spectron": "^3.0.0",
+    "xo": "^0.10.0"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
+  },
+  "build": {
+  "appId": "tb-dir2svg",
+  "mac": {
+    "category": "program"
+  },
+  "scripts": {
+  "pack": "build --dir",
+  "dist": "build"
+  }
+}
+}
