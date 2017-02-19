@@ -2,7 +2,7 @@
 
 Independant tool to extract all trees from a treebank into collections of svg files.
 
-![alt text](https://github.com/gguibon/Treebank2svg/img/homescreen.PNG "treebank2svg")
+![homescreen](https://github.com/gguibon/Treebank2svg/blob/master/img/homescreen.PNG "treebank2svg")
 
 ---
 
