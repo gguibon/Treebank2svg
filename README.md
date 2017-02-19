@@ -3,20 +3,10 @@
 Independant tool to extract all trees from a treebank into collections of svg files.
 
 Using this tool a directory like this:
-mytreebank
- ˪ file1.conll
- ˪ subdir
-    ˪ file2.conll
+![inputdir](https://github.com/gguibon/Treebank2svg/blob/master/img/generateddir.PNG "input directory")dir.PNG
 
 Will generate a copy of this directory containing SVG collections:
-mytreebank_SVG
- ˪ file1.conll
- 	˪ tree1.svg
- 	˪ tree2.svg
- ˪ subdir
-    ˪ file2.conll
-    	˪ tree.svg
-    	˪ tree.svg
+![outputdir](https://github.com/gguibon/Treebank2svg/blob/master/img/generateddir.PNG "output directory")
 
 
 ![homescreen](https://github.com/gguibon/Treebank2svg/blob/master/img/homescreen.PNG "treebank2svg")
