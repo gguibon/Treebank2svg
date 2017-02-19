@@ -2,11 +2,39 @@
 
 Independant tool to extract all trees from a treebank into collections of svg files.
 
+![alt text](https://github.com/gguibon/Treebank2svg/img/homescreen.png "treebank2svg")
+
 ---
 
 # Install 
 
-## From npm
+## Installers
+
+[treebank2svg.deb](https://github.com/gguibon/Treebank2svg/releases/download/0.1.2/treebank2svg.deb)
+
+Installers for MacOs and Windows coming soon. The app is still available through npm for these platform (see next section).
+
+## *Multi platform* using npm and git
+
+Import the code:
+```
+git clone https://github.com/gguibon/Treebank2svg.git treebank2svg
+```
+
+Install dependencies:
+```
+cd treebank2svg
+```
+```
+bash install.sh
+```
+
+Start the app:
+```
+npm start
+```
+
+## For dev through npm
 
 To install it:
 ```
