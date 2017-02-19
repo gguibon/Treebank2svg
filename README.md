@@ -4,7 +4,7 @@ Independant tool to extract all trees from a treebank into collections of svg fi
 
 Using this tool a directory like this:
 
-![inputdir](https://github.com/gguibon/Treebank2svg/blob/master/img/generateddir.PNG "input directory")
+![inputdir](https://github.com/gguibon/Treebank2svg/blob/master/img/initialdir.PNG "input directory")
 
 Will generate a copy of this directory containing SVG collections:
 
