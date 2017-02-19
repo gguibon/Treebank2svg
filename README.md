@@ -9,7 +9,7 @@ mytreebank
     ˪ file2.conll
 
 Will generate a copy of this directory containing SVG collections:
-mytreebank
+mytreebank_SVG
  ˪ file1.conll
  	˪ tree1.svg
  	˪ tree2.svg
